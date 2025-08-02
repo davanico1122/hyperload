@@ -1,0 +1,32 @@
+{
+  "name": "hyperload-pro",
+  "version": "2.0.0",
+  "description": "Advanced CLI load testing tool with real-time dashboard",
+  "main": "hyperload.js",
+  "bin": {
+    "hyperload": "./hyperload.js"
+  },
+  "scripts": {
+    "start": "node hyperload.js",
+    "build-windows": "pkg . --targets node18-win-x64 --output dist/hyperload.exe",
+    "build-linux": "pkg . --targets node18-linux-x64 --output dist/hyperload-linux",
+    "build-macos": "pkg . --targets node18-macos-x64 --output dist/hyperload-macos",
+    "build-all": "npm run build-windows && npm run build-linux && npm run build-macos"
+  },
+  "keywords": [
+    "load-testing",
+    "performance",
+    "cli",
+    "http-testing",
+    "stress-test"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [],
+    "outputPath": "dist"
+  }
+}
