@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 - **Performa Tinggi** – Mampu menangani hingga 50.000+ permintaan per detik
 - **Dashboard Real-time** – Memantau metrik secara langsung selama pengujian
 - **Statistik Lengkap** – Persentil waktu respons (p50, p90, p95, p99), tingkat keberhasilan, RPS
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚙️ Instalasi
+##  Instalasi
 
 ### Sebagai Paket Global
 ```bash
@@ -36,7 +36,7 @@ File executable akan tersedia di direktori `dist/`.
 
 ---
 
-## 🚀 Penggunaan
+##  Penggunaan
 
 ```bash
 hyperload --url <URL> --vus <NUMBER> --duration <SECONDS> [OPTIONS]
@@ -69,7 +69,7 @@ hyperload --url https://api.example.com/login --vus 500 --duration 30 \
 
 ---
 
-## 📊 Dashboard Real-time
+##  Dashboard Real-time
 
 Selama pengujian berjalan, HyperLoad Pro menampilkan dashboard langsung:
 
@@ -88,7 +88,7 @@ Selama pengujian berjalan, HyperLoad Pro menampilkan dashboard langsung:
 
 ---
 
-## 📈 Hasil Pengujian
+##  Hasil Pengujian
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -133,7 +133,7 @@ Selama pengujian berjalan, HyperLoad Pro menampilkan dashboard langsung:
 
 ---
 
-## 🧠 Panduan Penggunaan Lengkap
+##  Panduan Penggunaan Lengkap
 
 ### 1. Persiapan Pengujian
 - Server target siap menerima beban tinggi
@@ -170,7 +170,7 @@ Tekan `CTRL+C` untuk menghentikan pengujian kapan saja.
 
 ---
 
-## 🛠 Build Executable
+##  Build Executable
 
 ### Build untuk semua platform:
 ```bash
@@ -192,10 +192,18 @@ dist/
   hyperload-linux
   hyperload-macos
 ```
+---
+##  Diagram Arsitektur
+
+![Diagram Arsitektur](assets/diagram-arsitektur.png)
+
+##  Workflow Pengujian
+
+![Diagram Workflow Pengujian](assets/workflow-pengujian.png)
 
 ---
 
-## 🤝 Berkontribusi
+##  Berkontribusi
 
 1. Fork repositori ini  
 2. Buat branch baru: `git checkout -b fitur-baru`  
@@ -205,6 +213,6 @@ dist/
 
 ---
 
-## 📄 Lisensi
+##  Lisensi
 
 Dirilis di bawah [MIT License](LICENSE).
