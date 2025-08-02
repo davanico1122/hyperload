@@ -137,7 +137,6 @@ Setelah pengujian selesai, laporan terperinci ditampilkan:
 │ 500      │    20         │  0.1%              │
 └──────────┴───────────────┴────────────────────┘
 
-
 ---
 
 Diagram Arsitektur
