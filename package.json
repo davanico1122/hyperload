@@ -12,6 +12,7 @@
     "build-linux": "pkg . --targets node18-linux-x64 --output dist/hyperload-linux",
     "build-macos": "pkg . --targets node18-macos-x64 --output dist/hyperload-macos",
     "build-all": "npm run build-windows && npm run build-linux && npm run build-macos"
+    "build-node16": "pkg . --targets node16-win-x64 --output dist/hyperload-node16.exe"
   },
   "keywords": [
     "load-testing",
