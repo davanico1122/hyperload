@@ -82,7 +82,7 @@ Dashboard Real-time
 
 Selama pengujian berjalan, HyperLoad Pro menampilkan dashboard langsung:
 
-  LIVE DASHBOARD
+   LIVE DASHBOARD
   ──────────────────────────────────────────────────────────────────────
   Progress: [██████████████████████░░░░░░░░░░] 67.5%
 
@@ -92,7 +92,6 @@ Selama pengujian berjalan, HyperLoad Pro menampilkan dashboard langsung:
   Status Codes: 200: 24850 | 201: 120 | 400: 10 | 500: 20
   ──────────────────────────────────────────────────────────────────────
   Press CTRL+C to stop test
-
 ---
 
 
