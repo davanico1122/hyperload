@@ -57,12 +57,12 @@ hyperload --url <URL> --vus <NUMBER> --duration <SECONDS> [OPTIONS]
 
 #### Pengujian dasar:
 ```bash
-hyperload --url https://example.com --vus 1000 --duration 60
+hyperload.exe --url https://example.com --vus 1000 --duration 60
 ```
 
 #### Pengujian lanjutan dengan header kustom:
 ```bash
-hyperload --url https://api.example.com/login --vus 500 --duration 30 \
+hyperload.exe --url https://api.example.com/login --vus 500 --duration 30 \
           --method POST --header "Content-Type: application/json" \
           --header "Authorization: Bearer xyz"
 ```
